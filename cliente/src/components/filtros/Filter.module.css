@@ -1,0 +1,27 @@
+ .cardsContainer {
+    max-width: 40vw;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+  .cardsContainer select {
+    margin: 10px;
+    height: 20px;
+    width: 130px;
+    /* align-self: center; */
+    font-size: 12px;
+    padding-left: 8px;
+    font-weight: bold;
+    font-family: "Archivo", sans-serif;
+    border-radius: 8px;
+    border: 3px solid #493933;
+    color: #efe8df;
+    background-color: #493933;
+    cursor: pointer;
+    flex-direction:row; 
+    align-items: center;
+    justify-content: space-between;
+  }

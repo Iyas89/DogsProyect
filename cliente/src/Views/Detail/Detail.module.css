@@ -1,0 +1,63 @@
+.dogImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.imageContainer:hover .dogimage {
+  opacity: 0.4;
+}
+.cardsContainer {
+  max-width: 90vw;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 70px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(1px);
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.video {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+
+.h3{
+  color: aqua;
+}
+
+.h2{
+  color: blue;
+}
+
+.loginButton {
+  display: inline-block;
+  background-color: #64aaf0;
+  font-family: "orbitron", sans-serif;
+  color: #fff;
+  position: absolute;
+  right: 45%;
+  bottom: 15%;
+  box-shadow: 5px 5px 3px 0px rgb(117, 166, 230);
+  -moz-boxx-shadow: 5px 5px 3px 0px blue;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+} 

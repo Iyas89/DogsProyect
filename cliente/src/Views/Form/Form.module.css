@@ -1,0 +1,82 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .formContainer form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 300px;
+  }
+  
+  .formContainer label {
+    width: 100%;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .formContainer input[type="text"],
+  .formContainer input[type="number"],
+  .formContainer select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .formContainer button {
+    background-color: #2a11b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formContainer button:hover {
+    background-color: #b34141;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #e71d36;
+    size: 300px;
+  }
+  
+  /* Estilo para el campo select múltiple */
+  .formContainer select[multiple] {
+    width: 330px;
+    height: auto;
+    min-height: 100px;
+  }
+  
+  /* Estilo para los options del select múltiple */
+  .formContainer select[multiple] option {
+    padding: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .video {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+  }
